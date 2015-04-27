@@ -36,8 +36,8 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pr' 
   gem 'rails_12factor'
+  gem 'pr'
 end
 
 
